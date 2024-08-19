@@ -1,0 +1,19 @@
+name: {CI workflow}
+
+on:
+  push:
+    branches: {push on main branch}
+  pull_request:
+    branches: {pull_request on main branch}
+
+jobs:
+  build:
+    runs-on: {ubuntu-latest}
+    container: {placeholder}
+    steps:
+      - name: {placeholder}
+        uses: {placeholder}
+      - name: {placeholder}
+        run: |
+        {first command}
+        {second command}
